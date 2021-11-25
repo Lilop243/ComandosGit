@@ -1,0 +1,104 @@
+body{
+    
+}
+
+nav{
+    background: black;
+    width: 100%;  
+}
+
+
+#menu{
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+}
+
+.lista{
+    display: inline-block;
+}
+.lista-r{
+    float: right;
+    font-size: 25px;
+}
+
+.lista a{
+    color: chartreuse;
+    text-decoration: none;
+    padding: 25px;
+    display: block;
+    font-size: 25px;
+}
+.lista a:hover{
+    background-color: blueviolet;
+    color: rgb(252, 251, 253);
+}
+
+.lista-r a{
+    color: chartreuse;
+    text-decoration: none;
+    padding: 25px;
+    display: block;
+}
+.lista-r a:hover{
+    background-color: darkorchid;
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+#pc{
+    background-color: rgb(228, 226, 225);
+    padding: 0%;
+    max-width: 700px;
+    margin: 60px;
+}
+#pc .samsung{
+    display:block;
+    margin:auto;
+}
+
+#pc .dell{
+    display:block;
+    margin:auto;
+}
+
+#uno{
+    background-color: rgb(228, 226, 225);
+    padding: 0%;
+    max-width: 700px;
+    margin: 60px;
+    float: right;
+    position: relative;
+}
+
+
+#boton{
+    display: block;
+    margin: auto;
+    background-color: rgb(3, 3, 3);
+}
+
+
+#boton a{
+    color: chartreuse;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+#boton:hover{
+    background-color: darkorchid;
+
+}
